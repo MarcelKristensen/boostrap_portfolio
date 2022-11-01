@@ -1,0 +1,10 @@
+@use 'custom';
+
+// Import the components
+@use 'components/mixins';
+
+// Import the sections
+@use 'sections/navbar';
+@use 'sections/portfolio';
+@use 'sections/about';
+@use 'sections/background';

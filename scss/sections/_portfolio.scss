@@ -1,0 +1,30 @@
+@use '../custom' as *;
+
+.container-portfolio {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 65%;
+
+    .card {
+        padding: 10px;
+        height: 400px;
+
+        img {
+            height: 200px;
+            width: 100%;
+        }
+    }
+}
+
+.portfolio {
+    background-color: $primary;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 20px;
+
+    h1 {
+        color: $gray-400;
+    }
+}

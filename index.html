@@ -1,0 +1,163 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+</head>
+
+<main>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll menu">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+
+      <!-- Card & description-->
+    <section class="bg-image" id="about">
+        <div class="content">
+            <div class="container pt-4">
+                    <div class="row mt-5 mx-auto">
+                         <div class="card">
+                            <img src="/images/about-image.png" class="about-img" alt="about image">
+                            <ul class="list-group list-group-flush">
+
+                                <li class="list-group-item">
+                                    <i class="fa-brands fa-github fa-2x"></i>
+                                    <p>
+                                        <a href="https://github.com/MarcelKristensen">Github</a>
+                                    </p>
+
+                                <li class="list-group-item">
+                                    <i class="fa-brands fa-linkedin fa-2x"></i>
+                                    <p>
+                                        <a href="https://www.linkedin.com/in/marcel-kristensen-739ab4116/">LinkedIn</a>
+                                    </p>
+
+                                <li class="list-group-item">
+                                    <i class="fa-regular fa-envelope fa-2x"></i>
+                                    <p>Marc1495@edu.zealand.dk</p>
+
+                                <li class="list-group-item">
+                                    <i class="fa-solid fa-phone fa-2x"></i>
+                                    <p>81615925</p>
+                            </ul>
+                        </div>
+
+              <div class="about-description col-lg-8">
+                <h1>About me</h1>
+                  <p class="desc-margins">
+                    My name is Marcel Kristensen and I study at Zealand Roskilde to finish my prof-bachelor degree
+                    in Web Development. I've studied several subjects such as database management,
+                    programming, software development etc. Below I have listed the fields which I am proficient at.</p>
+                  <div class="row mt-5">
+                      <div class="col-md-4">
+                          <ul class="ul-margins">
+                              <li>PHP</li>
+                              <li>Python</li>
+                              <li>C#</li>
+
+                          </ul>
+                      </div>
+                      <div class="col-md-4">
+                          <ul>
+                              <li>Javascript/Typescript</li>
+                              <li>ReactJs</li>
+                              <li>Angular</li>
+                          </ul>
+                            </div>
+
+                            <div class="col-md-4">
+                                <ul>
+                                    <li>Ionic</li>
+                                    <li>SQL, MySQL</li>
+                                    <li>BabylonJs</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <p class="desc-margins">
+                            You can also find various projects of mine down in the portfolio section.</p>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+  </section>
+
+<!-- Portfolio -->
+<section id="portfolio">
+  <div class="container-portfolio">
+      <div class="portfolio">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img src="images/lemonade-webshop.png" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Lemonade Webshop</h4>
+                                <p class="card-text">A lemonade webshop created with ReactJs & Redux</p>
+                                <div class="text-center">
+                                    <button onClick="location.href='https://github.com/MarcelKristensen/lemonade-webshop-redux'">
+                                        <i class="fa-brands fa-github fa-3x"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 mt-4">
+                        <div class="card">
+                            <img src="images/estate-webshop.png" alt="Card image">
+                                <div class="card-body">
+                                    <h4 class="card-title">Estate website</h4>
+                                    <p class="card-text">A website for buying or selling estates created with C# and .Net Core</p>
+                                    <div class="text-center">
+                                        <button onClick="location.href='https://github.com/MarcelKristensen/BeckITEjendomsm-glerApplikation'">
+                                            <i class="fa-brands fa-github fa-3x"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    <div class="col-lg-4 mt-4">
+                        <div class="card">
+                            <img src="images/vent2uproject-program.png" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Vent2uProject</h4>
+                                <p class="card-text">Program to collect data about room temperature created with Ionic</p>
+                                <div class="text-center">
+                                    <button onClick="location.href='https://github.com/PANOPTICONISM/Vent2uProject'">
+                                        <i class="fa-brands fa-github fa-3x"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</main>
+</html>

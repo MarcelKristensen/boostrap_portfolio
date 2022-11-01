@@ -1,0 +1,59 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+.card {
+    width: 20rem;
+    padding: 0;
+    border: 0;
+
+    img {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    li {
+        padding: 5 1rem;
+        display: flex;
+        background-color: $primary;
+        border-color: $secondary;
+        color: $gray-400;
+
+
+        p {
+            display: inline-block;
+            margin-left: 20px;
+            font-size: 18px;
+
+            a {
+                text-decoration: none;
+                color: $gray-400;
+            }
+        }
+    }
+
+    li:first-child {
+        padding-top: 10px;
+    }
+}
+
+.about-description {
+    background-color: $primary;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: $gray-400;
+
+    h1 {
+        padding: 10px;
+        margin-left: 10px;
+    }
+}
+
+.desc-margins {
+    @include description-margins;
+    margin-top: 20px;
+}
+
+.ul-margins {
+    @include description-margins;
+}
