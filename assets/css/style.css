@@ -10809,6 +10809,7 @@ textarea.form-control-lg {
   width: 20rem;
   padding: 0;
   border: 0;
+  margin-left: 40px;
 }
 .card img {
   border-top-left-radius: 5px;
@@ -10843,6 +10844,7 @@ textarea.form-control-lg {
 .about-description h1 {
   padding: 10px;
   margin-left: 10px;
+  text-align: center;
 }
 
 .desc-margins {
