@@ -10795,13 +10795,13 @@ textarea.form-control-lg {
   width: 100%;
 }
 
-.portfolio {
+.portfolio-box {
   background-color: #161b22;
   border-radius: 5px;
-  margin-left: 10px;
   padding: 20px;
+  width: 1200px;
 }
-.portfolio h1 {
+.portfolio-box h1 {
   color: #ced4da;
 }
 
